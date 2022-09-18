@@ -10,15 +10,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
+            
             const string MyName = "Jane";
 
             Console.WriteLine(MyName);
 
-            Console.WriteLine("Привет, мир");
+            Console.WriteLine("Привет, \nмир!");
             Console.WriteLine("Мне 27 лет");
-            Console.WriteLine("My name is Jane");
-
+            Console.WriteLine("\tМеня зовут Саша");
+            Console.WriteLine("\x23");
+            
+            Console.WriteLine(0x0A);
+            Console.WriteLine(0b11);
+            Console.WriteLine(5.5);
             Console.ReadKey();
         }
     }
