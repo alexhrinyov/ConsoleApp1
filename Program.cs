@@ -10,13 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine((DaysOfWeak.Friday));
+            Console.WriteLine((Semaphore.Red));
 
         }
 
-        enum DaysOfWeak:byte
+        enum Semaphore:ushort
         {
-            Sunday=1, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+            Red = 100, Yellow = 200, Green = 300
         }
     }
 }
