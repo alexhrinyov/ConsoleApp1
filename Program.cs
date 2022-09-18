@@ -10,20 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine((DaysOfWeak.Friday));
 
-            const string myName = "Alexandr";
-            byte age = 29;
-            bool pet = false;
-            float shoe_size = 42;
-            Console.WriteLine("My name is {0}", myName);
-            Console.WriteLine("My age is {0}", age);
-            Console.WriteLine("Do you have a pet?");
-            if (pet == true)
-                Console.WriteLine("Yes, I have a pet");
-            else
-                Console.WriteLine("No, I don't");
-            Console.WriteLine("My shoe size is {0}", shoe_size);
-            Console.ReadKey();
+        }
+
+        enum DaysOfWeak:byte
+        {
+            Sunday=1, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
         }
     }
 }
