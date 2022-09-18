@@ -10,19 +10,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
-            const string MyName = "Jane";
 
-            Console.WriteLine(MyName);
-
-            Console.WriteLine("Привет, \nмир!");
-            Console.WriteLine("Мне 27 лет");
-            Console.WriteLine("\tМеня зовут Саша");
-            Console.WriteLine("\x23");
-            
-            Console.WriteLine(0x0A);
-            Console.WriteLine(0b11);
-            Console.WriteLine(5.5);
+            const string myName = "Alexandr";
+            byte age = 29;
+            bool pet = false;
+            float shoe_size = 42;
+            Console.WriteLine("My name is {0}", myName);
+            Console.WriteLine("My age is {0}", age);
+            Console.WriteLine("Do you have a pet?");
+            if (pet == true)
+                Console.WriteLine("Yes, I have a pet");
+            else
+                Console.WriteLine("No, I don't");
+            Console.WriteLine("My shoe size is {0}", shoe_size);
             Console.ReadKey();
         }
     }
